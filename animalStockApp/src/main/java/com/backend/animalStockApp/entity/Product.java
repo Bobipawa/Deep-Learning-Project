@@ -77,25 +77,24 @@ public class Product {
         this.marque = marque;
         this.color = color;
         this.quantite = quantite;
-        this.animal = "";
     }
 
-    public String getAnimal() {
+    /*public String getAnimal() {
         return animal;
-    }
+    }*/
 
     public void setAnimal(String animal) {
         this.animal = animal;
     }
 
-    public Product(long id, String categorie, String marque, Color color, int quantite, String animal) {
+    /*public Product(long id, String categorie, String marque, Color color, int quantite, String animal) {
         this.id = id;
         this.categorie = categorie;
         this.marque = marque;
         this.color = color;
         this.quantite = quantite;
         this.animal = animal;
-    }
+    }*/
 
     public Product(){
 

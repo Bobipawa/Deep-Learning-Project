@@ -12,12 +12,12 @@ import java.util.List;
 public class AnimalStockAppService {
 
     static private ArrayList<Product> products = new ArrayList<>(Arrays.asList(
-            new Product(1, "Insecticide", "ORO", Product.Color.GREEN, 10, "Dog"),
-            new Product(2, "Insecticide", "ORO", Product.Color.YELLOW, 10, "Dog"),
-            new Product(3, "Insecticide", "ORO", Product.Color.GRAY, 10, "Horse"),
-            new Product(4, "Insecticide", "ORO", Product.Color.RED, 10, "Cat"),
-            new Product(5, "Insecticide", "ORO", Product.Color.BROWN, 10, "Dog"),
-            new Product(6, "Insecticide", "ORO", Product.Color.PURPLE, 10, "Hen")
+            new Product(1, "Insecticide", "ORO", Product.Color.GREEN, 10),
+            new Product(2, "Insecticide", "ORO", Product.Color.YELLOW, 10),
+            new Product(3, "Insecticide", "ORO", Product.Color.GRAY, 10),
+            new Product(4, "Insecticide", "ORO", Product.Color.RED, 10),
+            new Product(5, "Insecticide", "ORO", Product.Color.BROWN, 10),
+            new Product(6, "Insecticide", "ORO", Product.Color.PURPLE, 10)
     ));
 
     public List<Product> getProducts(){
@@ -44,8 +44,8 @@ public class AnimalStockAppService {
         });
     }
 
-    public List<Product> getAnimalProducts(String animal) {
+    /*public List<Product> getAnimalProducts(String animal) {
         return (List<Product>) products.stream().filter(product -> product.getAnimal() == animal).findAny().orElse(null);
-    }
+    }*/
 
 }

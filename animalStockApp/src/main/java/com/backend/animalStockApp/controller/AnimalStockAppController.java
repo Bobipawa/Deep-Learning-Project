@@ -38,9 +38,9 @@ public class AnimalStockAppController {
         animalStockAppService.updateProduct(product, id);
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/products/animals/{animal}")
+    /*@RequestMapping(method = RequestMethod.GET, value = "/products/animals/{animal}")
     public List<Product> getAnimalProducts(@PathVariable String animal){
         return animalStockAppService.getAnimalProducts(animal);
-    }
+    }*/
 
 }
